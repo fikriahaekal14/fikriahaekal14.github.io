@@ -142,7 +142,8 @@ h6 {
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 5px;
-  background-color: #883d6fff;
+  /* background-color: #883d6fff; */
+  background-color: #feaf26;
 }
 
 #header .logo img {
@@ -184,7 +185,7 @@ h6 {
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   /* color: #47b2e4; */
-  color: #f260b5;
+  color: #feaf26;
   /* padding-top: 7px;
   padding-left: 7px;
   padding-right: 7px;
@@ -417,7 +418,8 @@ h6 {
   /* height: 62vh; */
   /* background: #37517e; */
   /* background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center; */
-  background-image: url("D:/XAMPP/htdocs/fikri-web/assets/img/bg-fikri.png");
+  /* background-image: url("D:/XAMPP/htdocs/fikri-web/assets/img/bg-fikri.png"); */
+  background-image: url("assets/img/bg-fikri.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -570,7 +572,8 @@ h6 {
   }
 
   #hero {
-    background-image: url("D:/XAMPP/htdocs/fikri-web/assets/img/bg-fikri-hp.png");
+    /* background-image: url("D:/XAMPP/htdocs/fikri-web/assets/img/bg-fikri-hp.png"); */
+    background-image: url("assets/img/bg-fikri-hp.png");
     padding-bottom: 120px;
   }
 }
