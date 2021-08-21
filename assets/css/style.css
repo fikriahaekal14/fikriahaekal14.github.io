@@ -43,7 +43,7 @@ h6 {
   z-index: 9999;
   overflow: hidden;
   /* background: #37517e; */
-  background: #6c3594;
+  background: #feaf26;
 }
 
 #preloader:before {
@@ -52,7 +52,7 @@ h6 {
   top: calc(50% - 30px);
   left: calc(50% - 30px);
   /* border: 6px solid #37517e; */
-  border: 6px solid #f260b5;
+  border: 6px solid #4e4e4e;
   border-top-color: #fff;
   border-bottom-color: #fff;
   /* border-radius: 50%; */
