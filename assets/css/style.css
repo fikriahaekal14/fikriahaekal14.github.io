@@ -102,15 +102,19 @@ h6 {
   width: 40px;
   height: 40px;
   border-radius: 10px;
-  background: #6c3594;
-  color: #fff;
+  /* background: #6c3594; */
+  background: #feaf26;
+  /* color: #fff; */
+  color: #4f545d;
   transition: all 0.4s;
 }
 
 .back-to-top i:hover {
   /* background: #209dd8; */
-  background: #f260b5;
-  color: #fff;
+  /* background: #f260b5; */
+  background: #4f545d;
+  /* color: #fff; */
+  color: #feaf26;
 }
 
 /*--------------------------------------------------------------
@@ -124,7 +128,8 @@ h6 {
 
 #header.header-scrolled,
 #header.header-inner-pages {
-  background: rgba(108, 53, 148, 0.9);
+  /* background: rgba(108, 53, 148, 0.9); */
+  background: rgba(254, 175, 38, 0.9);
 }
 
 #header .logo {
@@ -185,6 +190,7 @@ h6 {
 .nav-menu .active > a,
 .nav-menu li:hover > a {
   /* color: #47b2e4; */
+  /* color: #feaf26; */
   color: #feaf26;
   /* padding-top: 7px;
   padding-left: 7px;
@@ -418,8 +424,8 @@ h6 {
   /* height: 62vh; */
   /* background: #37517e; */
   /* background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("../img/cta-bg.jpg") fixed center center; */
-  /* background-image: url("D:/XAMPP/htdocs/fikri-web/assets/img/bg-fikri.png"); */
-  background-image: url("assets/img/bg-fikri.png");
+  background-image: url("/assets/img/bg-fikri.png");
+  /* background-image: url("assets/img/bg-fikri.png"); */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -572,8 +578,8 @@ h6 {
   }
 
   #hero {
-    /* background-image: url("D:/XAMPP/htdocs/fikri-web/assets/img/bg-fikri-hp.png"); */
-    background-image: url("assets/img/bg-fikri-hp.png");
+    background-image: url("/assets/img/bg-fikri-hp.png");
+    /* background-image: url("assets/img/bg-fikri-hp.png"); */
     padding-bottom: 120px;
   }
 }
@@ -786,7 +792,7 @@ section {
 --------------------------------------------------------------*/
 .resume {
   /* background-image: url("D:/XAMPP/htdocs/icha-web/assets/img/bg-resume.png"); */
-  background-image: url("D:/XAMPP/htdocs/fikri-web/assets/img/bg-resume-fikri.png");
+  background-image: url("/assets/img/bg-resume-fikri.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -833,7 +839,8 @@ section {
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid #f260b5;
+  /* border-left: 2px solid #f260b5; */
+  border-left: 2px solid #4f545d;
   position: relative;
 }
 
@@ -842,7 +849,8 @@ section {
   font-size: 18px;
   font-weight: 600;
   padding: 5px 15px;
-  background-color: #f260b5;
+  /* background-color: #f260b5; */
+  background-color: #4f545d;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   display: inline-block;
@@ -853,7 +861,7 @@ section {
 .resume .resume-item h5 {
   font-size: 16px;
   /* background: #f7f8f9; */
-  color: #f260b5;
+  color: #4f545d;
   padding: 5px 15px;
   /* display: inline-block; */
   font-weight: 600;
@@ -881,11 +889,11 @@ section {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 10px solid #f260b5;
+  border: 10px solid #4f545d;
 }
 
 .resume .tulisan-pink {
-  color: #f260b5;
+  color: #4f545d;
 }
 
 /* .resume .resume-title::before {
@@ -1709,6 +1717,11 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+
+.contact {
+  background-color: #2c2e3a;
+}
+
 .contact .info {
   border-top: 3px solid #47b2e4;
   border-bottom: 3px solid #47b2e4;
@@ -1792,11 +1805,11 @@ section {
 
 .contact .php-email-form {
   width: 100%;
-  border-top: 3px solid #6c3594;
+  border-top: 3px solid #4f545d;
   border-bottom: 3px solid #a69cad;
   padding: 30px;
   border-radius: 25px;
-  background: #6c3594;
+  background: #4f545d;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
 }
 
@@ -2042,7 +2055,7 @@ section {
 #footer {
   font-size: 14px;
   /* background: #37517e; */
-  background: #fff;
+  background: #feaf26;
 }
 
 #footer .footer-newsletter {
@@ -2177,7 +2190,7 @@ section {
   font-size: 25px;
   display: inline-block;
   /* background: #47b2e4; */
-  background: #6c3594;
+  background: #feaf26;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -2191,21 +2204,22 @@ section {
 
 #footer .footer-top .social-links a:hover {
   /* background: #209dd8; */
-  background: #f260b5;
-  color: #fff;
+  background: #fff;
+  color: #feaf26;
   text-decoration: none;
 }
 
 #footer .footer-bottom {
   padding-top: 30px;
   padding-bottom: 30px;
-  color: #6c3594;
-  background: #fff;
+  /* color: #feaf26; */
+  color: #4f545d;
+  background: #feaf26;
 }
 
 #footer .copyright {
   float: center;
-  background: #fff;
+  background: #feaf26;
 }
 
 #footer .credits {

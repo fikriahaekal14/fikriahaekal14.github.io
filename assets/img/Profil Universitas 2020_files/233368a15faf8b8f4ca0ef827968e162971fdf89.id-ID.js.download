@@ -1,0 +1,2 @@
+window['cmsg']['assets'] = window['cmsg']['assets'] || {};
+window['cmsg']['assets']["id-ID"] = Object.assign(window['cmsg']['assets']["id-ID"] || {}, {"148":{"js":["f9e99ff4208447688d5b12b89af3274d79b56f1b.strings.js"],"css":[]},"171":{"js":["a8dde6ac93bc89ddf76cd4542e24b2369c69ee99.strings.js"],"css":[]},"728":{"js":["1a173e12abc696ebc508e3780f316b866ddc8be5.strings.js"],"css":[]}});
